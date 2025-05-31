@@ -6,7 +6,7 @@
   
 <h1 style="border-radius: 10px: background-color: red:" ><em>Seja bem vindo ao meu formulario teste</em></h1>
 
-<form>
+<form action="https://formspree.io/f/xovwarbq" method="post">
 
 <fieldset>
 <label><em>quem ta fazendo? (seu nome)</em></label>
