@@ -1,6 +1,7 @@
 fieldset{
   background-color: white;
   margin-bottom: 15px;
+  border-radius: 20px;
 }
 body{
 background-color: lightblue;
