@@ -18,7 +18,7 @@
 <br>
 
 <fieldset>
-<label><em>sua idade (não sei a idade de 99% das pessoas que conheço</em></label><br>
+<label><em>sua idade (não sei a idade de 99% das pessoas que conheço)</em></label><br>
   <input name="idade" type="number" placeholder="sua idade">
 </fieldset>
 
