@@ -2,7 +2,7 @@
 <head>
 <link rel="stylesheet" href="style.css">
 </head>
-<body style="background-color: lightblue;">
+<body>
   
 <h1 style="border-radius: 10px: background-color: red:" ><em>Seja bem vindo ao meu formulario teste</em></h1>
 
