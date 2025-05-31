@@ -9,7 +9,8 @@
 <form>
 
 <fieldset>
-<label><em>quem ta fazendo? (seu nome)</em></label> <br>
+<label><em>quem ta fazendo? (seu nome)</em></label>
+  <br>
   <input name="nome_usuario" type="text" placeholder="seu nome">
 </fieldset>
 
@@ -18,7 +19,8 @@
 <br>
 
 <fieldset>
-<label><em>sua idade (não sei a idade de 99% das pessoas que conheço)</em></label><br>
+<label><em>sua idade (não sei a idade de 99% das pessoas que conheço)</em></label>
+  <br>
   <input name="idade" type="number" placeholder="sua idade">
 </fieldset>
 
@@ -27,7 +29,8 @@
 <br>
 
 <fieldset>
-<label><em>se vc podesse ser um animal, qual seria?</em></label><br>
+<label><em>se vc podesse ser um animal, qual seria?</em></label>
+  <br>
   <input name="animal" type="text" placeholder="animal">
 </fieldset>
 
@@ -36,7 +39,8 @@
 <br>
 
 <fieldset>
-<label><em>um personagem manero (anime/desenho/serie)</em></label><br>
+<label><em>um personagem manero (anime/desenho/serie)</em></label>
+  <br>
 <input name="personagem" type="text" placeholder="nome do personagem" > 
 </fieldset>
 
@@ -45,7 +49,8 @@
 <br>
 
 <fieldset>
-<label><em>um filme (caso voce não seja como eu)</em></label><br>
+<label><em>um filme (caso voce não seja como eu)</em></label>
+  <br>
 <input name="filme" type="text" placeholder="filme">
 </fieldset>
 
