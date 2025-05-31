@@ -54,35 +54,46 @@
 <input name="filme" type="text" placeholder="filme">
 </fieldset>
 
+<br>
+<br>
+<br>
 
+<fieldset>
+<label><em>um anime/serie (ou ambos</em></label>
+  <br>
+  <input name="anime/serie" type="text" placeholder="anime/serie">
+</fieldset>
 
+<br>
+<br>
+<br>
 
+<fieldset>
+<label><em>um hobbie seu</em></label>
+  <br>
+  <input name="hobbie" type="text" placeholder="hobbie">
+</fieldset>
 
+<br>
+<br>
+<br>
 
+<fieldset>
+<label><em>música favorita (não vou ouvir, só se for phonk😏)</em></label>
+<br>
+  <input name="musica" type="text" placeholder="música">
+</fieldset>
 
+<br>
+<br>
+<br>
 
+<h4>avalia ai</h4>
 
+<input name="avaliação" type="range">
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<button style="border-radius: 15px; background-color: red;">Enviar tudo</button>
   
-</form>
-
-
-
-  
+</form>  
 </body>
 </html>
