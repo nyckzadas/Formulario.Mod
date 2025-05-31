@@ -92,7 +92,9 @@
 
 <input name="avaliação" type="range">
 
-<button style="border-radius: 15px; background-color: red;">Enviar tudo</button>
+<br>
+
+<button style="border-radius: 15px; background-color: red; padding-left: 300px; padding-right: 300px;">Enviar tudo</button>
   
 </form>  
 </body>
