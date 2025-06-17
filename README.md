@@ -1,101 +1,143 @@
+<!DOCTYPE html>
 <html>
+
 <head>
-<link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>nyckzadas</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
-<body>
+
+<body id="body">
+<header>
+  <h1><em>bem vindo ao formulario</em></h1>
   
-<h1 style="border-radius: 10px: background-color: red:" ><em>Seja bem vindo ao meu formulario teste</em></h1>
+  <button onclick="fun ()">mudar fundo</button>
 
-<form action="https://formspree.io/f/xovwarbq" method="post">
+  <script>
+let fundo = true;
+let fundo1 = document.getElementById("body");
 
-<fieldset>
-<label><em>quem ta fazendo? (seu nome)</em></label>
-  <br>
-  <input name="nome_usuario" type="text" placeholder="seu nome">
-</fieldset>
-
-<br>
-<br>
-<br>
-
-<fieldset>
-<label><em>sua idade (não sei a idade de 99% das pessoas que conheço)</em></label>
-  <br>
-  <input name="idade" type="number" placeholder="sua idade">
-</fieldset>
-
-<br>
-<br>
-<br>
-
-<fieldset>
-<label><em>se vc podesse ser um animal, qual seria?</em></label>
-  <br>
-  <input name="animal" type="text" placeholder="animal">
-</fieldset>
+    
+    function fun() {
+      if (fundo == true) {
+        
+        fundo1.style.backgroundColor = "white";
+        fundo1.style.color = "black";
+        fundo = false;
+        
+      } else {
+        
+        fundo1.style.backgroundColor = "black";
+        fundo1.style.color = "white";
+        fundo = true;
+        
+      }
+    }
+  </script>
+</header>
 
 <br>
-<br>
-<br>
-
-<fieldset>
-<label><em>um personagem manero (anime/desenho/serie)</em></label>
-  <br>
-<input name="personagem" type="text" placeholder="nome do personagem" > 
-</fieldset>
-
-<br>
-<br>
-<br>
-
-<fieldset>
-<label><em>um filme (caso voce não seja como eu)</em></label>
-  <br>
-<input name="filme" type="text" placeholder="filme">
-</fieldset>
-
-<br>
-<br>
-<br>
-
-<fieldset>
-<label><em>um anime/serie (ou ambos</em></label>
-  <br>
-  <input name="anime/serie" type="text" placeholder="anime/serie">
-</fieldset>
-
-<br>
-<br>
-<br>
-
-<fieldset>
-<label><em>um hobbie seu</em></label>
-  <br>
-  <input name="hobbie" type="text" placeholder="hobbie">
-</fieldset>
-
-<br>
-<br>
-<br>
-
-<fieldset>
-<label><em>música favorita (não vou ouvir, só se for phonk😏)</em></label>
-<br>
-  <input name="musica" type="text" placeholder="música">
-</fieldset>
-
-<br>
-<br>
-<br>
-
-<h4>avalia ai</h4>
-
-<input name="avaliação" type="range">
-
-<br>
-
-<button style="border-radius: 15px; background-color: red; padding-left: 300px; padding-right: 300px;">Enviar tudo</button>
   
-</form>  
+<section>
+  
+<form action="https://formspree.io/f/xldnljlg" method="POST">
+
+<fieldset>
+  
+  <label>qual seu nome?</label>
+
+<br>
+  <br>
+  
+  <input name="nome" type="text" placeholder="seu nome">
+</fieldset>
+
+  <br>
+   <br>
+
+  <fieldset>
+<label><em>qual sua idade? (não fará diferença)</em</label>
+
+    <br>
+    <br>
+    
+<input name="idade" type="number" placeholder="sua idade">
+  </fieldset>
+
+<br>
+<br>
+
+<fieldset>
+<label><em>por que você quer fazer parte da administração?</em></label>
+
+  <br>
+  <br>
+  
+  <input name="motivo" type="text" placeholder="seu motivo">
+</fieldset>
+
+<br>
+  <br>
+
+  <fieldset>
+<label><em>seu número do WhatsApp</em></label>
+
+    <br>
+    <br>
+    
+    <input name="numero" type="number" placeholder="seu número">
+  </fieldset>
+
+  <br>
+  <br>
+
+  <fieldset>
+<label><em>tem experiência com programação? se sim, em quais linguagens?</em></label>
+    <br>
+    <br>
+    
+    <input name="experiência" type="text" placeholder="sua experiência">
+  </fieldset>
+
+  <br>
+  <br>
+
+  <fieldset>
+<label><em>quanto tempo você tem para se dedicar?</em></label>
+
+    <br>
+    <br>
+
+    <input name="tempo" type="text" placeholder="seu tempo">
+  </fieldset>
+
+  <br>
+  <br>
+
+  <fieldset>
+<label><em>tem experiência com administrativo? (tenho certeza que sim)</em></label>
+
+    <br>
+    <br>
+    <input name="experiência administrativo" type="checkbox">
+  </fieldset>
+</section>
+
+<footer>
+  <br>
+  
+<button class="but" type="submit">Enviar tudo</button>
+
+<br>
+  <br>
+  
+  <h3><em>site feito pelo braço direito (nyckzadas) do criador.</em></h3>
+  <br>
+  
+  <h4>ajudanyc@gmail.com</h4>
+  <h5>+55 53 99982-4100</h5>
+</footer>
+  <script src="script.js"></script>
 </body>
 </html>
