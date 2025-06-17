@@ -2,12 +2,15 @@
 <html>
 <head>
   <meta charset="utf-8">
+  
   <meta name="viewport" content="width=device-width">
+  
   <title>replit</title>
+  
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
-<body id="body">
+<body>
 <header>
   <h1><em>bem vindo ao formulario</em></h1>
   
@@ -46,18 +49,21 @@ let fundo1 = document.getElementById("body");
   <br>
   
   <input name="nome" type="text" placeholder="seu nome">
+  
 </fieldset>
 
   <br>
    <br>
 
   <fieldset>
+    
 <label><em>qual sua idade? (não fará diferença)</em</label>
 
     <br>
     <br>
     
 <input name="idade" type="number" placeholder="sua idade">
+
   </fieldset>
 
 <br>
@@ -71,6 +77,7 @@ let fundo1 = document.getElementById("body");
   <br>
   
   <input name="motivo" type="text" placeholder="seu motivo">
+  
 </fieldset>
 
 <br>
@@ -126,12 +133,14 @@ tem experiência com programação? se sim, em quais linguagens?
 
     <br>
     <br>
+    
     <input name="experiência administrativo" type="checkbox">
     
   </fieldset>
 </section>
 
 <footer>
+  
   <br>
   
 <button class="but" type="submit">Enviar tudo</button>
@@ -144,7 +153,10 @@ tem experiência com programação? se sim, em quais linguagens?
   
   <h4>ajudanyc@gmail.com</h4>
   <h5>+55 53 99982-4100</h5>
+  
 </footer>
+
   <script src="script.js"></script>
+  
 </body>
 </html>
