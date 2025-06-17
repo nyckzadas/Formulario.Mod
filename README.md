@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
@@ -20,18 +19,14 @@ let fundo1 = document.getElementById("body");
 
     
     function fun() {
-      if (fundo == true) {
-        
+      if (fundo == true) {       
         fundo1.style.backgroundColor = "white";
         fundo1.style.color = "black";
-        fundo = false;
-        
-      } else {
-        
+        fundo = false;     
+      } else {     
         fundo1.style.backgroundColor = "black";
         fundo1.style.color = "white";
-        fundo = true;
-        
+        fundo = true;       
       }
     }
   </script>
@@ -69,6 +64,7 @@ let fundo1 = document.getElementById("body");
 <br>
 
 <fieldset>
+  
 <label><em>por que você quer fazer parte da administração?</em></label>
 
   <br>
@@ -81,46 +77,57 @@ let fundo1 = document.getElementById("body");
   <br>
 
   <fieldset>
+    
 <label><em>seu número do WhatsApp</em></label>
 
     <br>
     <br>
     
     <input name="numero" type="number" placeholder="seu número">
+    
   </fieldset>
 
   <br>
   <br>
 
   <fieldset>
-<label><em>tem experiência com programação? se sim, em quais linguagens?</em></label>
+    
+<label><em>
+tem experiência com programação? se sim, em quais linguagens?
+</em></label>
+
     <br>
     <br>
     
     <input name="experiência" type="text" placeholder="sua experiência">
+    
   </fieldset>
 
   <br>
   <br>
 
   <fieldset>
+    
 <label><em>quanto tempo você tem para se dedicar?</em></label>
 
     <br>
     <br>
 
     <input name="tempo" type="text" placeholder="seu tempo">
+    
   </fieldset>
 
   <br>
   <br>
 
   <fieldset>
+    
 <label><em>tem experiência com administrativo? (tenho certeza que sim)</em></label>
 
     <br>
     <br>
     <input name="experiência administrativo" type="checkbox">
+    
   </fieldset>
 </section>
 
